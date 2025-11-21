@@ -7,7 +7,7 @@ default:
   suites:
     htmleditor-hugerte:
       paths:
-        - '%paths.modules.htmleditor-hugerte%/tests/behat/features'
+        - '%paths.modules.silverstripe-htmleditor-hugerte%/tests/behat/features'
       contexts:
         - SilverStripe\Framework\Tests\Behaviour\FeatureContext
         - SilverStripe\Framework\Tests\Behaviour\CmsFormsContext
@@ -17,7 +17,7 @@ default:
         - SilverStripe\CMS\Tests\Behaviour\AnchorContext
         -
           SilverStripe\AssetAdmin\Tests\Behat\Context\FixtureContext:
-            - "%paths.modules.htmleditor-hugerte%/tests/behat/files/"
+            - "%paths.modules.silverstripe-htmleditor-hugerte%/tests/behat/files/"
 
   extensions:
     SilverStripe\BehatExtension\MinkExtension:
