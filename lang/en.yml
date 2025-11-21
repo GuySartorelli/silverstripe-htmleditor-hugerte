@@ -1,0 +1,5 @@
+en:
+  GuySartorelli\HugeRTE\HugeRTEConfig:
+    BEST_FIT: 'Best fit'
+    ORIGINAL: Original
+    PIXEL_WIDTH: '{width} pixels'

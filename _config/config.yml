@@ -1,0 +1,11 @@
+---
+Name: hugerte-config
+---
+SilverStripe\Forms\HTMLEditor\HTMLEditorConfig:
+  default_config_definitions:
+    cms:
+      configClass: 'GuySartorelli\HugeRTE\HugeRTEConfig'
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'guysartorelli/silverstripe-htmleditor-hugerte: client/dist/js/bundle.js'

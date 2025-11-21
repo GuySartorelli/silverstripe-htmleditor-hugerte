@@ -1,0 +1,11 @@
+---
+Name: hugerte-injector
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Forms\HTMLEditor\HTMLEditorConfig:
+    class: GuySartorelli\HugeRTE\HugeRTEConfig
+  GuySartorelli\HugeRTE\HugeRTEScriptGenerator: '%$GuySartorelli\HugeRTE\HugeRTECombinedGenerator'
+  GuySartorelli\HugeRTE\HugeRTECombinedGenerator:
+    class: GuySartorelli\HugeRTE\HugeRTECombinedGenerator
+    properties:
+      AssetHandler: '%$SilverStripe\Assets\Storage\GeneratedAssetHandler'
